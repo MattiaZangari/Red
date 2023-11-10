@@ -1,0 +1,212 @@
+/* * settings general */ 
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h1{
+        font-family: 'Nova Square', cursive;
+       
+}
+
+
+/* root */
+:root{
+    --main: #ececec;
+    --sec: #C67F7F;
+    --accent: darkred;
+
+}
+
+/* colore testi */
+
+.text-main{
+    color: var(--main);
+}
+.text-sec{
+    color: var(--sec);
+}
+.text-accent{
+    color: var(--accent);
+}
+
+/* background color */
+
+.bg-main{
+    background-color:var(--main);
+}
+.bg-sec{
+    background-color:var(--sec);
+}
+.bg-accent{
+    background-color:var(--accent);
+}
+
+/* border color */
+
+.border-main{
+    border: solid 2px var(--main);
+}
+.border-sec{
+    border: solid 2px var(--sec);
+}
+.border-accent{
+    border: solid 2px var(--accent);
+}
+
+
+body{
+    background-color: #ececec;
+}
+
+/* navbar */
+
+.imgcus{
+
+     
+    height: 100px;
+
+}
+.navbar{
+    z-index: 10;
+}
+.nav-custom{
+    background-color: #ececec;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+   
+    
+    
+}
+
+
+.nav-item{
+margin-right: 100px;
+margin-left: 40px;
+
+
+}
+
+/* header */
+
+.bg-custom{
+    background: linear-gradient(white,#ececec00), url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+
+}
+
+/* .ps::before{
+    content: '"';
+    font-size: 200%;
+    color: var(--accent);
+    background: url(https://fontawesome.com/icons/quote-left?f=classic&s=solid);
+
+
+   
+}
+.ps::after{
+    content: '"';
+    font-size: 200%;
+    color: var(--accent);
+   
+   
+} */
+
+.virgolette{
+    position: relative;
+    bottom: 15px;
+    z-index: -5;
+}
+.virgolette2{
+    position: relative;
+    top: 15px;
+    z-index: -5;
+}
+
+/* seconda section */
+
+.pbordercus{
+    border-bottom: solid 3px var(--accent);
+    position: relative;
+    z-index: -1;
+}
+
+.pbordercus::after{
+    content:"";
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: var(--main);
+    border: 2px solid var(--accent);
+    position: absolute;
+    right: 47%;
+    top: 85%;
+}
+
+
+/* quarta section , button */
+
+.bgcusbutton{
+    background-color: var(--main);
+    background-image: url(media/trees2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* QUINTA SECTION TIMELINE */
+
+.timelinecus{
+    border-left: 3px solid var(--accent);
+    position: relative;
+}
+
+.timelinecus::before{
+    content: "";
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color:var(--main);
+    border: 2px solid var(--accent);
+    position: absolute;
+    left: -8px;
+}
+
+.bgtimelinecus{
+    background-color: white;
+    background-image: url(./media/single.png);
+    
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 10%;
+    
+    
+}
+.img-cust{
+    width: 200px;
+    height: 200px;
+}
+
+.img-cust2 {
+    width: 300px;
+    height: 300px;
+
+}
+
+.immagine-fine{
+    width: 100vw;
+
+    
+}
+
+
+
+
+
+
